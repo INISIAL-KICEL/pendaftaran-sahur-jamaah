@@ -1,0 +1,7 @@
+tunnel: d3f37b96-5bb8-466e-9d17-97c8e9e9db9d
+credentials-file: /Users/inisial.kicel/.cloudflared/d3f37b96-5bb8-466e-9d17-97c8e9e9db9d.json
+
+ingress:
+  - hostname: historiskita.biz.id
+    service: http://localhost:3000
+  - service: http_status:404
